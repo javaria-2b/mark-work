@@ -27,7 +27,6 @@ export default function Component() {
               <Label htmlFor="username">Username</Label>
               <Input className="w-full" defaultValue="johndoe" id="username" />
             </div>
-            <div className="grid grid-cols-2 gap-4">
               <div className="grid gap-2">
                 <Label htmlFor="firstName">First Name</Label>
                 <Input className="w-full" defaultValue="John" id="firstName" />
@@ -36,7 +35,6 @@ export default function Component() {
                 <Label htmlFor="lastName">Last Name</Label>
                 <Input className="w-full" defaultValue="Doe" id="lastName" />
               </div>
-            </div>
             <div className="grid gap-2">
               <Label htmlFor="gender">Gender</Label>
               <RadioGroup className="flex items-center gap-4" defaultValue="male" id="gender">
@@ -73,7 +71,7 @@ export default function Component() {
         </div>
         <div className="flex flex-col items-center gap-8">
           <div className="flex flex-col items-center gap-4 pl-4">
-            <Avatar className="h-20 w-20">
+            <Avatar className="h-32 w-32">
               <AvatarImage alt="@johndoe" src="/placeholder-user.jpg" />
               <AvatarFallback>JD</AvatarFallback>
             </Avatar>
